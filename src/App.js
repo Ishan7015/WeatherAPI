@@ -26,7 +26,7 @@ class App extends React.Component {
   }
 
   onSearch=()=>{
-    fetch(`http://api.weatherapi.com/v1/current.json?key=dc8caf5e8f834de195f72918212506&q=${this.state.cityName}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=dc8caf5e8f834de195f72918212506&q=${this.state.cityName}`)
     .then(response=>response.json()).then(data=>{
       if(Object.keys(data).length>1){
         if(data.location.name.toLowerCase()===this.state.cityName.toLocaleLowerCase()){
