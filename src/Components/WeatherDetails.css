@@ -1,0 +1,46 @@
+.details {
+    text-align: center;
+    margin: 2%;
+}
+
+.conditionIcon {
+    height: 100px;
+    
+}
+
+.conditionIconBright {
+    height: 100px;
+    filter: invert(100%);
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+}
+
+.h3Bright {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.info {
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.infoBright {
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.detailIcon {
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    filter: invert(100%);
+}

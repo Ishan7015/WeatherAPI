@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  height: 100vh;
+  box-sizing: border-box;
+  top: 0;
+  /* background: linear-gradient(to right top, rgb(223, 221, 113, 0.2), rgb(25, 221, 188, 0.2)); */
+  /* background: rgb(0, 0, 0, 0.0); */
+  background-image: url("./bkimg/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.alert{
+  font-weight: 500;
+  font-size: 25px;
   color: white;
+  padding: 35px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.AppBright {
+
+  text-align: center;
+  height: 100vh;
+  box-sizing: border-box;
+  top: 0;
+  /* background: linear-gradient(to right top, rgb(223, 221, 113, 0.2), rgb(25, 221, 188, 0.2)); */
+  background: rgb(0, 0, 0, 0.0);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bkimage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.container {
+  /* margin: 30px; */
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px){
+ 
+  .App{background-size: 150% 130%}
+
+}
+
+@media only screen and (max-width: 500px){
+ 
+  .App{background-size: 200% 130%}
+
 }

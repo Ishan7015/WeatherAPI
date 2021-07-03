@@ -1,0 +1,47 @@
+h1 {
+    font-size: 80px;
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+
+.h1Bright {
+    font-size: 80px;
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 17%;
+    background-color: rgb(185, 173, 255);
+    color: black;
+    border: none;
+    text-align: center;
+    margin: 5px;
+
+}
+
+button {
+    height: 32px;
+    width: 5%;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 1090px){
+    input{width: 150px;}
+    button{width: 70px;}
+    h1{font-size: 40px;}
+
+}
